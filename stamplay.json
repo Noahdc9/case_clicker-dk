@@ -1,0 +1,10 @@
+{
+  "appId": "case-clicker",
+  "apiKey": "a3ef901b864d4fc13669a56777fbc1342a833640b8050a7d235e05d6e5b5dae5",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

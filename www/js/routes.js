@@ -75,7 +75,9 @@ angular.module('app.routes', [])
         
     .state('login', {
       url: '/page5',
-      templateUrl: 'templates/login.html'
+      templateUrl: 'templates/login.html',
+      controller: "loginController",
+      controllerAs : "account"
     })
         
       

@@ -1,0 +1,27 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button></ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="side-menu21"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" id="side-menu21">
+        <ion-header-bar class="bar-stable">
+            <div class="title">Menu</div>
+        </ion-header-bar>
+        <ion-content padding="false" class="side-menu-left has-header">
+            <ion-list>
+                <ion-item ui-sref="menu.caseClicker" menu-close="">cases</ion-item>
+                <ion-item ui-sref="menu.moneyClicker" menu-close="">money clicker</ion-item>
+                <ion-item ui-sref="menu.shop" menu-close="">shop/upgrades</ion-item>
+                <ion-item ui-sref="menu.inventory" menu-close="">open</ion-item>
+                <ion-item ui-sref="menu.settings" menu-close="">settings</ion-item>
+                <ion-item ui-sref="menu.trade" menu-close="">trade</ion-item>
+                <ion-item ui-sref="menu.jackpot" menu-close="">jackpot</ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
